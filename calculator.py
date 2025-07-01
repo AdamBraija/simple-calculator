@@ -61,7 +61,7 @@ def calculator():
             print(f"\nResult : {result}")
             
             while True:
-                again = input("\n Do you want to use calculator again?(yes/no): ").lower()
+                again = input("\n Do you want to use calculator again?(yes/no): ").lower().strip()
                 if again in ("yes", "no"):
                     break
                 else:
